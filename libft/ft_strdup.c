@@ -25,11 +25,11 @@ char	*ft_strdup(const char *s1)
 	return ((char *) ft_memcpy(new, s1, len));
 }
 
-//s stringinin içinde c yi bulup geri kalan stringi return eder
+//yeni bir dizin açıp onun uzunluğu kadar mallocla yer ayırıp oraya kopyalar
 
 /*#include <stdio.h>
 int main()
 {
-	const char s[] = "aybuke";
-	printf("%s", ft_strchr(s, 'b'));
+	char c[] = "aybuke";
+	printf("%s", ft_strdup(c));
 }*/
